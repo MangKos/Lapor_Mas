@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/XML/XMLDocument.xml to edit this template
+-->
+
+<TextField fx:id="emailField" />
+<Button text="Kirim" onAction="#handleKirimButtonAction" />
+<AnchorPane xmlns:fx="http://javafx.com/fxml" fx:controller="com.example.lapor.LaporanController">
+    <TextField fx:id="emailField" layoutX="50" layoutY="50"/>
+    <Button text="Kirim" layoutX="50" layoutY="100" onAction="#handleKirimButtonAction"/>
+</AnchorPane>
+
+
+<root>
+    
+</root>
+
